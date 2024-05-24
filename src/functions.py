@@ -14,9 +14,9 @@ def formatting_date(date_string):
 
 def mask_number(number):
     """
-    Маскирует номер карты
-    :param card_number: Номер карты
-    :return: Замаскированный номер карты
+    Маскирует номер карты (счета)
+    :param card_number: Номер карты либо счета
+    :return: Замаскированный номер карты (счета)
     """
     parts = number.split()
     type_ = ' '.join(parts[0:-1])
